@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+   function passvalues ()
+   {
+      var firstname= document.getElementById("txt").value;
+      localStorage.setItem("textvalue",firstname);
+      return false;
+   }
+</script>
+</head>
+<body>
+<center>
+<H1>Welcom to my Website</H1>
+<hr/>
+<form action="0001.html">
+   <h3 class="title login"> Enter your name </h3>
+   <input type="text" id="txt"/>
+   <input type="submit" value="Click" onclick="passvalues();"/>
+   </form>
+</center>
+</body>
+</html>
